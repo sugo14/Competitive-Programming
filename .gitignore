@@ -1,0 +1,23 @@
+# ignore all
+/*
+
+# except ccc completed
+!/CCC
+/CCC/*
+!CCC/completed/
+!CCC/completed/*
+
+# except leetcode completed
+!/leetcode
+/leetcode/*
+!leetcode/completed/
+!leetcode/completed/**
+
+# except cses completed
+!/CSES
+/CSES/*
+!CSES/completed/
+!CSES/completed/**
+
+# except gitignore
+!.gitignore
