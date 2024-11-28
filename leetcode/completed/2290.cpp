@@ -15,7 +15,7 @@ class Solution {
     priority_queue<node, vector<node>, compare> q;
 public:
     int minimumObstacles(vector<vector<int>>& grid) {
-        q.push({{0, 0}, (grid[0][0] == 1)});
+        q.push({{0, 0}, 0});
         int n = grid.size(), m = grid[0].size();
         vector<vector<int>> dist(n, vector<int>(m, INF));
         while (true) {
