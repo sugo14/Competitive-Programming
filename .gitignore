@@ -19,5 +19,8 @@
 !CSES/completed/
 !CSES/completed/**
 
+# except all of advent of code 2024
+!/AOC
+
 # except gitignore
 !.gitignore
