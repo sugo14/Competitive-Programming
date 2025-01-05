@@ -19,6 +19,12 @@
 !CSES/completed/
 !CSES/completed/**
 
+# except dmoj completed
+!/DMOJ
+/DMOJ/*
+!DMOJ/completed/
+!DMOJ/completed/**
+
 # except all of advent of code 2024
 !/AOC
 
